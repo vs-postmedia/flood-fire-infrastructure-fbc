@@ -4,25 +4,23 @@
 	max-width: 750px;
 }
 .graphic-container {
-	display: flex;
+	/*display: flex;*/
 	margin: 0 auto;
 }
-.graphic-container .flourish-chart,
-.graphic-container > iframe {
-	flex: 1;
-	max-width: 50%;
+.graphic-container .gfx-block {
+	margin-top: 5px;
+	position: relative;
 }
-
-.graphic-container.full-width .flourish-chart,
-.graphic-container.full-width > iframe {
-	flex: 1;
-	max-width: 100%;
+.graphic-container .gfx-block > h2 {
+	font-size: 2rem;
+	left: 5px;
+	position: absolute;
+	z-index: 1;
 }
-.graphic-container .flourish-chart:nth-of-type(1) {
-	margin-right: 0.5rem;
+.graphic-container .gfx-block > img {
+	height: auto;
+	width: 100%;
 }
-
-
 
 
 
@@ -30,7 +28,14 @@
 @media only screen and (min-width: 600px) {
     /* Style adjustments for viewports that meet the condition */
     .graphic-container {
-    	/*display: flex;*/
-    	/*justify-content: space-between;*/
+		display: flex;
+	}
+    .graphic-container .gfx-block {
+    	flex: 1;
+    	max-width: 50%;
     }
+    .graphic-container .gfx-block > img {
+    	height: auto;
+		width: 95%;
+	}
 }

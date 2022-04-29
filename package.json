@@ -1,6 +1,6 @@
 {
-  "name": "flourish-embed-template",
-  "homepage": "https://vs-postmedia.github.io/flourish-embed-template/",
+  "name": "flood-fire-infrastructure-fbc",
+  "homepage": "https://vs-postmedia.github.io/flood-fire-infrastructure-fbc/",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -31,7 +31,6 @@
     "html-loader": "^1.0.0",
     "html-webpack-plugin": "^4.0.2",
     "mini-css-extract-plugin": "^0.9.0",
-    "node-sass": "^4.14.1",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "postcss-flexbugs-fixes": "^4.2.1",
     "postcss-loader": "^3.0.0",
