@@ -3,6 +3,9 @@
 	margin: 0 auto;
 	max-width: 750px;
 }
+#app h1 {
+	font-size: 1.75rem;
+}
 .graphic-container {
 	/*display: flex;*/
 	margin: 0 auto;
@@ -12,7 +15,7 @@
 	position: relative;
 }
 .graphic-container .gfx-block > h2 {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	left: 5px;
 	position: absolute;
 	z-index: 1;
