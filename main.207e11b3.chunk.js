@@ -869,7 +869,7 @@ var fonts = __webpack_require__(6);
 var main = __webpack_require__(7);
 
 // CONCATENATED MODULE: ./src/images/richmond-legend.png
-/* harmony default export */ var richmond_legend = (__webpack_require__.p + "assets/richmond-legend.af2b497b.png");
+/* harmony default export */ var richmond_legend = (__webpack_require__.p + "assets/richmond-legend.4acba726.png");
 // CONCATENATED MODULE: ./src/images/chilliwack.png
 /* harmony default export */ var chilliwack = (__webpack_require__.p + "assets/chilliwack.305234e8.png");
 // CONCATENATED MODULE: ./src/index.js
